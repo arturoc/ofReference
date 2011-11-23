@@ -115,7 +115,7 @@ This gives you the OpenGL id of the depthBuffer that the fbo contains. The depth
 ### GLuint getStencilBuffer() ###
 This gives you the OpenGL id of the stencilBuffer that the fbo contains. A stencil buffer is typically used to add shadows to 3D applications or to do some kinds of reflections. It basically creates a per-pixel mask that can be used to determine which pixels to discard because of a shadow or a reflection.
 
-## Settings ##
+## ofFbo::Settings ##
 
 The settings object is an easier way to set up the fbo when you allocate the fbo.
 

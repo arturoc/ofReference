@@ -61,9 +61,13 @@ template<typename T>
 
 ### virtual  ~ofBaseImage_<T>() ###
 
-## typedef ofBaseImage_<unsigned char> ofBaseImage ##
+## ofBaseImage ##
 
-## typedef ofBaseImage_<float> ofBaseFloatImage ##
+typedef ofBaseImage_<unsigned char> 
+
+## ofBaseFloatImage ##
+
+typedef ofBaseImage_<float> 
 
 ##  ofBaseSoundInput ##
 
@@ -185,7 +189,7 @@ If your videoplayer needs to implement seperate texture and pixel returns for pe
 ### virtual  void previousFrame() ###
 ### virtual  void setPixelFormat(ofPixelFormat pixelFormat) ###
 
-##  ofBaseRenderer{
+##  ofBaseRenderer
 
 ### virtual  ~ofBaseRenderer() ###
 

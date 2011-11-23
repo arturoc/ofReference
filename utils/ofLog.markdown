@@ -67,7 +67,7 @@
 };
 
 
-## class ofLogVerbose ##
+## ofLogVerbose ##
  ofLog
  ### 		ofLogVerbose(const string &module="OF")  ### 
 	 ### 	ofLogVerbose(const string & module, const string & message)  ### 
